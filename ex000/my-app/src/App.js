@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frases from './components/Frases';
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Testando o module</h1>
+      <Frases/>
       <HelloWorld/>
       <SayMyName nome ="Pedro"/>
       <SayMyName nome = {nome}/>
