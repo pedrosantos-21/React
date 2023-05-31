@@ -1,5 +1,6 @@
 
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -22,8 +23,9 @@ function App() {
       <p>Olá, {newname}</p>
       <p>soma: {sum(5,5)}</p>
       <img src={url} alt="minah imagem" ></img>
+      <HelloWorld/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
